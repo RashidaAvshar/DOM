@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background-color: rgba(17, 234, 223, 0.67);
+    background-color: rgba(160, 232, 228, 0.67);
 }
 #container{
     border: 2px solid rgb(220, 9, 9);
@@ -97,3 +97,80 @@ body{
 }
 }
 
+// !==========================NAV BAR==========================================================
+
+.containerHeader{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(15, 25, 35);
+    .header{
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        align-items: center;
+        figure{
+            a{
+                img{
+                    width: 150px; 
+                }
+            }
+        }
+        nav{
+            display: flex;
+            ul{
+                display: flex;
+                li{
+                    margin-left: 15px;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .social{
+            ul{
+                display: flex; 
+                li{
+                    margin-left: 15px;
+                    a{
+                        color: #fff;  
+                    }              
+                      
+                }
+            }
+        }
+        .menu-mobile {
+            display: none;
+            color: #fff;
+            i{
+                color: #fff;
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 690px){
+    .header{
+        nav{
+            ul{
+                display: none;
+            }
+            // .social{
+            //     display: none;
+            // }            
+        }        
+        i {
+            display: block;
+            color: #fff;
+            i{
+                color: #fff;
+            }
+        }
+    }    
+}
+    

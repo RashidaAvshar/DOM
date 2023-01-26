@@ -8,7 +8,7 @@
 
 body {
   height: 100vh;
-  background-color: rgba(17, 234, 223, 0.67);
+  background-color: rgba(160, 232, 228, 0.67);
 }
 
 #container {
@@ -94,4 +94,65 @@ body {
   font-weight: 600;
   font-size: 16px;
   position: relative;
+}
+
+.containerHeader {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(15, 25, 35);
+}
+header .header {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+}
+header .header figure a img {
+  width: 150px;
+}
+header .header nav {
+  display: flex;
+}
+header .header nav ul {
+  display: flex;
+}
+header .header nav ul li {
+  margin-left: 15px;
+}
+header .header nav ul li a {
+  color: #fff;
+}
+header .header .social ul {
+  display: flex;
+}
+header .header .social ul li {
+  margin-left: 15px;
+}
+header .header .social ul li a {
+  color: #fff;
+}
+header .header .menu-mobile {
+  display: none;
+  color: #fff;
+}
+header .header .menu-mobile i {
+  color: #fff;
+  display: none;
+}
+
+@media (max-width: 690px) {
+  .header nav ul {
+    display: none;
+  }
+  .header i {
+    display: block;
+    color: #fff;
+  }
+  .header i i {
+    color: #fff;
+  }
 }/*# sourceMappingURL=style.css.map */
