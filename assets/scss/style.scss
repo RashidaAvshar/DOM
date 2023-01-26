@@ -145,11 +145,7 @@ header{
         }
         .menu-mobile {
             display: none;
-            color: #fff;
-            i{
-                color: #fff;
-                display: none;
-            }
+            color: #fff;            
         }
     }
 }
@@ -157,20 +153,13 @@ header{
 @media (max-width: 690px){
     .header{
         nav{
-            ul{
-                display: none;
-            }
-            // .social{
-            //     display: none;
-            // }            
-        }        
-        i {
-            display: block;
-            color: #fff;
-            i{
-                color: #fff;
-            }
-        }
+            display: none;
+        }   
+        .social{
+             display: none;
+             color: #fff;
+        }            
+       
     }    
 }
     

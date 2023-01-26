@@ -139,20 +139,13 @@ header .header .menu-mobile {
   display: none;
   color: #fff;
 }
-header .header .menu-mobile i {
-  color: #fff;
-  display: none;
-}
 
 @media (max-width: 690px) {
-  .header nav ul {
+  .header nav {
     display: none;
   }
-  .header i {
-    display: block;
-    color: #fff;
-  }
-  .header i i {
+  .header .social {
+    display: none;
     color: #fff;
   }
 }/*# sourceMappingURL=style.css.map */
