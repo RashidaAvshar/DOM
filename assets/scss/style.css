@@ -135,17 +135,6 @@ header .header .social ul li {
 header .header .social ul li a {
   color: #fff;
 }
-header .header .menu-mobile {
-  display: none;
+header .header .menu-mobile i {
   color: #fff;
-}
-
-@media (max-width: 690px) {
-  .header nav {
-    display: none;
-  }
-  .header .social {
-    display: none;
-    color: #fff;
-  }
 }/*# sourceMappingURL=style.css.map */

@@ -144,22 +144,28 @@ header{
             }
         }
         .menu-mobile {
-            display: none;
-            color: #fff;            
+            i {
+                display: none;
+            color: #fff;  
+            }      
         }
     }
+
+    @media (max-width: 690px){
+        .header{
+            nav{
+                display: none;     
+            }  
+            
+            .menu-mobile{
+                display: block; !important
+                color: #fff;
+            }             
+        }    
+    }
+}
+.mobile-nav{
+
 }
 
-@media (max-width: 690px){
-    .header{
-        nav{
-            display: none;
-        }   
-        .social{
-             display: none;
-             color: #fff;
-        }            
-       
-    }    
-}
     
