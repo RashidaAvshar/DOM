@@ -147,7 +147,9 @@ header{
             display: none;
             color: #fff;       
         }
-        @media (max-width: 690px){
+        
+    }  
+    @media (max-width: 690px){
         .header{
             nav{
                 display: none;     
@@ -156,9 +158,32 @@ header{
                 display: block; 
                 color: #fff;
             }             
-        }    
-    }
-    }    
+        }  
+         
+    }  
+}
+.mobile-nav-deactive{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 15;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.mobile-nav-active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 15;
+    background-color: #fff;
+    top: 0;
+    left: 0;
 }
 
 

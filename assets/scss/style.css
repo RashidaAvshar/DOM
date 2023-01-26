@@ -140,11 +140,35 @@ header .header .menu-mobile {
   color: #fff;
 }
 @media (max-width: 690px) {
-  header .header .header nav {
+  header .header nav {
     display: none;
   }
-  header .header .header .menu-mobile {
+  header .header .menu-mobile {
     display: block;
     color: #fff;
   }
+}
+
+.mobile-nav-deactive {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  z-index: 15;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+}
+
+.mobile-nav-active {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: none;
+  z-index: 15;
+  background-color: #fff;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=style.css.map */

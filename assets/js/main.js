@@ -19,3 +19,6 @@ document.querySelector("#btn_add").addEventListener("click", ()=>{
 
 // !=================================================nav bar============================================================================
 
+document.querySelector("#menu") =addEventListener("click", ()=>{
+    console.log("menu");
+});
